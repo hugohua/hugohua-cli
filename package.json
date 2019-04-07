@@ -1,0 +1,33 @@
+{
+  "name": "hugohua-cli",
+  "version": "1.0.0",
+  "description": "a cli tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hugohua-cli": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hugohua/hugohua-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "hugohua"
+  ],
+  "author": "hugohua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugohua/hugohua-cli/issues"
+  },
+  "homepage": "https://github.com/hugohua/hugohua-cli#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "npm": "^6.9.0",
+    "yargs": "^13.2.2"
+  }
+}
